@@ -1,0 +1,91 @@
+:root {
+  --darkturquoise: #00CED1;
+  --brightturquoise: #55edc6;
+  --white: #FFFFFF;
+  --black: #000000;
+  --mustard: #ffd63f;
+  --grape: #CC00FF;
+}
+
+@font-face {
+    font-family: 'finland_roundedthin';
+    src: url('../fonts/finland_rounded_thin-webfont.woff2') format('woff2'),
+         url('../fonts/finland_rounded_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'finland_roundedthin', sans-serif;
+  font-size: 90px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  }
+
+.turquoiseBox {
+  background-color: var(--darkturquoise);
+  font-family: 'finland_roundedthin', sans-serif;
+  font-size: 80px;
+  color: var(--black);
+  line-height: 1;
+  width: 250px;
+  height:250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  border: solid;
+  border-width: 5px;
+}
+
+.whiteBox {
+  background-color: var(--white);
+  font-family: 'finland_roundedthin', sans-serif;
+  font-size: 80px;
+  color: var(--black);
+  line-height: 1;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  border: solid;
+  border-width: 5px;
+}
+
+.mustardBox {
+  background-color: var(--mustard);
+  font-family: 'finland_roundedthin', sans-serif;
+  font-size: 80px;
+  color: var(--black);
+  line-height: 1;
+  width: 250px;
+  height:250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  border: solid;
+  border-width: 5px;
+}
+
+.grapeBox {
+  background-color: var(--grape);
+  font-family: 'finland_roundedthin', sans-serif;
+  font-size: 80px;
+  color: var(--black);
+  line-height: 1;
+  width: 250px;
+  height:250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  border: solid;
+  border-width: 5px;
+}
